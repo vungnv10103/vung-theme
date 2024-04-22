@@ -1,5 +1,6 @@
 {
 	"name": "Vung Theme Dark 2",
+	"type": "dark",
 	"colors": {
 		"activityBar.background": "#1E1F35",
 		"editor.background": "#1E1F35",

@@ -26,14 +26,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "v1",
+        "label": "Vung Theme Default",
         "uiTheme": "vs-dark",
         "path": "./themes/envy-color-theme.json"
       },
       {
-        "label": "v2",
+        "label": "Vung Theme Custom v1",
         "uiTheme": "vs-dark",
         "path": "./themes/envy-color-theme-2.json"
+      },
+      {
+        "label": "Bac Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bac-color-theme.json"
       }
     ]
   }
