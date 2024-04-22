@@ -1,13 +1,14 @@
 {
   "name": "vung-theme-dark",
   "displayName": "Vung Theme Dark",
-  "description": "Custom Theme Dark!",
+  "description": "Custom Theme Dark! Look like Dracula Theme",
   "version": "1.0.0",
   "publisher": "ChagnAnhh",
   "repository": {
     "type": "git",
     "url": "https://github.com/vungnv10103/vung-theme"
   },
+  "icon": "icon.png",
   "keywords": [
     "theme",
     "dark theme",
@@ -25,9 +26,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "envy",
+        "label": "v1",
         "uiTheme": "vs-dark",
         "path": "./themes/envy-color-theme.json"
+      },
+      {
+        "label": "v2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/envy-color-theme-2.json"
       }
     ]
   }
