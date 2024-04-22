@@ -1,0 +1,34 @@
+{
+  "name": "vung-theme-dark",
+  "displayName": "Vung Theme Dark",
+  "description": "Custom Theme Dark!",
+  "version": "1.0.0",
+  "publisher": "ChagnAnhh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vungnv10103/vung-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "vung theme",
+    "vungtheme",
+    "bac theme",
+    "bactheme"
+  ],
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "envy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/envy-color-theme.json"
+      }
+    ]
+  }
+}
