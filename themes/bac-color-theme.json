@@ -68,8 +68,8 @@
 		"activityBar.background": "#1e2030",
 		"activityBar.border": "#22243660",
 		"activityBar.foreground": "#b4c2f0",
-		"activityBarBadge.background": "#3b63cf",
-		"activityBarBadge.foreground": "#ffffffee",
+		"activityBarBadge.background": "#ff6bcb",
+		"activityBarBadge.foreground": "#f8f8f2",
 		"titleBar.activeBackground": "#1e2030",
 		"titleBar.activeForeground": "#c8d3f5",
 		"titleBar.inactiveBackground": "#1e2030",
@@ -487,10 +487,12 @@
 				"comment",
 				"punctuation.definition.comment",
 				"unused.comment",
-				"wildcard.comment"
+				"wildcard.comment",
+				"string.comment.buffered.block.pug",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#7F848E"
+				"foreground": "#6272a4"
 			}
 		},
 		{
@@ -532,10 +534,11 @@
 		{
 			"scope": [
 				"constant",
-				"variable.other.constant"
+				"variable.other.constant",
+				"variable.other.constant.js" // add
 			],
 			"settings": {
-				"foreground": "#BD93F9"
+				"foreground": "#9A86FD" // change
 			}
 		},
 		{
@@ -1054,7 +1057,7 @@
 				"entity.other.attribute-name.tsx"
 			],
 			"settings": {
-				"foreground": "#20E3B2",
+				"foreground": "#9A86FD",
 				"fontStyle": ""
 			}
 		},
@@ -1115,7 +1118,8 @@
 				"constant.percentage.units.css",
 				"constant.time.units.css",
 				"constant.angle.units.css",
-				"storage.modifier.ts"
+				"storage.modifier.ts",
+				"storage.type.js" // add
 			],
 			"settings": {
 				"foreground": "#FF6BCB"
@@ -1131,7 +1135,8 @@
 				"constant",
 				"support.type.property-name.media.css",
 				"meta.property-values.css",
-				"support.constant"
+				"support.constant",
+				"variable.other.constant.js" // add
 			],
 			"settings": {
 				"foreground": "#9A86FD",
